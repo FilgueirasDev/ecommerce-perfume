@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=REM:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+img.logo {
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid #80808020;
+}
+
+div.header-1 {
+    display: flex;
+    margin-right: 650px;
+}
+
+ul.nav-bar {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    color: #808080;
+    font-weight: 400;
+
+
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+div.end-nav-bar {
+    display: flex;
+
+}
+
+img.avatar {
+    height: 40px;
+    margin: 0 0 0 35px;
+
+}
+
+img.produto-thumb {
+    margin-top: 30px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+main {
+    display: flex;
+
+}
+
+section.secao-1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+
+#produto-destacado {
+    border: 2.5px solid hsl(26, 100%, 55%);
+    background-image: #00000080;
+    z-index: -1;
+    position: relative;
+
+
+}
+
+img.produto-1 {
+    height: 500px;
+    border-radius: 15px;
+    margin: 100px 0 0 0;
+}
+
+section.secao-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    height: 150px;
+
+}
+
+h4 {
+    letter-spacing: 2px;
+    color: #FFA500;
+    height: 37px;
+}
+
+div.preco-desconto {
+    display: flex;
+    position: relative;
+    margin: 0;
+    width: 200px;
+}
+
+#preco-total {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#porcentagem-desconto {
+    font-size: 1.1rem;
+    color: #FFA500;
+    margin-left: 20px;
+    background-color: hsl(25, 100%, 94%);
+    width: 48px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+p {
+    color: hsl(219, 9%, 45%);
+    font-size: 16px;
+    width: 450px;
+    height: 90px;
+    position: relative;
+    margin: 0;
+
+}
+
+h6.preco-principal {
+    color: #80808070;
+    font-size: 1rem;
+    text-decoration: line-through hsl(219, 9%, 80%);
+    margin-top: 8px;
+}
+
+div.finalizacao {
+    display: flex;
+
+}
+
+div.botoes {
+    display: flex;
+    width: 180px;
+    height: 55px;
+    margin: 0;
+    margin-top: 30px;
+    background-color: #80808010;
+    border-radius: 7px;
+
+}
+
+#numero-de-produtos {
+    color: #000;
+    padding-top: 14px;
+}
+
+#botao-menos {
+    padding-bottom: 6px;
+}
+
+div.add-to-cart {
+    display: flex;
+    background-color: #ff8c00;
+    width: 270px;
+    border-radius: 7px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+div.add-to-cart>h4 {
+    color: #fff;
+    font-size: 0.9rem;
+    padding-top: 19px;
+    padding-right: 70px;
+}
+
+button.cart {
+    padding-left: 70px;
+}
